@@ -38,7 +38,7 @@ function updateCart(price = 0) {
   cartCount++;
   cartTotal += price;
   if (cartBtn) {
-    cartBtn.innerHTML = `<i class="fa-solid fa-cart-shopping"></i> $${cartTotal.toFixed(0)} MXN (${cartCount})`;
+    cartBtn.innerHTML = `<i class="fa-solid fa-cart-shopping"></i> $${cartTotal.toFixed(2)} USD (${cartCount})`;
   }
 }
 
